@@ -1,0 +1,5 @@
+langchain
+chromadb
+google-generativeai
+tiktoken
+sentence-transformers
