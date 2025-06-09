@@ -1,7 +1,13 @@
 streamlit
 langchain
-chromadb
 google-generativeai
 tiktoken
 sentence-transformers
 langchain-community
+pillow
+requests
+chromadb==0.5.5
+uvicorn
+fastapi
+setuptools
+setuptools-rust
