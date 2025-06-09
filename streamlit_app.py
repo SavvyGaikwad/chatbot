@@ -1,3 +1,10 @@
+try:
+    import pysqlite3
+    import sys
+    sys.modules["sqlite3"] = sys.modules["pysqlite3"]
+except ImportError:
+    pass
+
 import streamlit as st
 import google.generativeai as genai
 from langchain_community.vectorstores import Chroma
